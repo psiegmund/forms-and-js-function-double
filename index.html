@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Einführung Day02</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="body">
+    <!-- LVL1-1 -->
+    <!-- <form action="" onsubmit="return false">
+        <input type="number" id="input-number">
+        <button onclick=double()>Verdoppel mich!</button>
+    </form>
+    <p id="result"></p> -->
+
+    <!-- LVL1_2 -->
+    <!-- <H1>Gib dein Geburtsjahr ein</H1>
+    <form action="" onsubmit="return false">
+        <input type="number" id="input-number">
+        <button onclick=calcAge()>Berechne mein Alter</button>
+        <p id="result"></p>
+    </form> -->
+
+    <!-- LVL1_3 -->
+    <!-- <H1>Vergleiche das Alter</H1>
+    <form action="" onsubmit="return false">
+        <input type="number" id="input-number1">
+        <input type="number" id="input-number2">
+        <button onclick=calcAge()>Berechne den Unterschied</button>
+        <p>Die Differenz ist:</p>
+        <p id="result"></p>
+    </form> -->
+
+    <!-- LVL3_1 -->
+    <h2>Fonts Generator</h2>
+    <form action="" onchange=chgFont() id="fontGenerator">
+        <input type="range" min="0" max="40" step="1" id="input-fontsize">
+        <select name="fontfamily" id="input-fontFamily">
+            <option value="'Bodoni Moda', serif">Bodoni 1</option>
+            <option value="'Open Sans', sans-serif">Open Sans</option>
+            <option value="'Roboto', sans-serif">Roboto</option>
+            <option value="'Yusei Magic', sans-serif">Yusei</option>
+        </select>
+        <input type="text" id="input-text" placeholder="So sieht´s aus!">
+    </form>
+
+    <form action="" onchange=chgBg() id="bgColor">
+        <label for="RGBR">RED</label>
+        <input type="range" name="RGBR" id="range-R" min="0" max="255" step="1">
+        <label for="RGBG">GREEN</label>
+        <input type="range" name="RGBG" id="range-G" min="0" max="255" step="1">
+        <label for="RGBB">BLUE</label>
+        <input type="range" name="RGBB" id="range-B" min="0" max="255" step="1">
+    </form>
+    <h1 id="result"></h1>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
