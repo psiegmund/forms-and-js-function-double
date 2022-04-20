@@ -40,6 +40,12 @@ let result = document.getElementById('result');
 let rgbR = document.getElementById('range-R');
 let rgbG = document.getElementById('range-G');
 let rgbB = document.getElementById('range-B');
+let hexCode = document.getElementById('input-hexCode')
+let superBallsDiv = document.getElementById('superBalls')
+let ball1 = document.getElementById('ballOne')
+let ball2 = document.getElementById('ballTwo')
+let ball3 = document.getElementById('ballThree')
+let ball4 = document.getElementById('ballFour')
 
 function chgFont() {
     console.log(fontSize.value);
@@ -55,4 +61,29 @@ function chgBg() {
     console.log(rgbG.value);
     console.log(rgbB.value);
     body.style.backgroundColor = 'rgb(' + rgbR.value + ', ' + rgbG.value + ', ' + rgbB.value + ')';
-} 
+}
+
+function chgBgByInput() {
+    body.style.backgroundColor = hexCode.value;
+    console.log(hexCode.value);
+}
+
+function superBall1() {
+    superBallsDiv.classList.remove("one", "two", "three", "four")
+    superBallsDiv.classList.add("one")
+}
+
+function superBall2() {
+    superBallsDiv.classList.remove("one", "two", "three", "four")
+    superBallsDiv.classList.add("two")
+}
+
+function superBall3() {
+    superBallsDiv.classList.remove("one", "two", "three", "four")
+    superBallsDiv.classList.add("three")
+}
+
+function superBall4() {
+    superBallsDiv.classList.remove("one", "two", "three", "four")
+    superBallsDiv.classList.add("four")
+}

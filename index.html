@@ -47,7 +47,9 @@
         </select>
         <input type="text" id="input-text" placeholder="So sieht´s aus!">
     </form>
+    <h1 id="result"></h1>
 
+    <h2>Change Background Color</h2>
     <form action="" onchange=chgBg() id="bgColor">
         <label for="RGBR">RED</label>
         <input type="range" name="RGBR" id="range-R" min="0" max="255" step="1">
@@ -56,7 +58,21 @@
         <label for="RGBB">BLUE</label>
         <input type="range" name="RGBB" id="range-B" min="0" max="255" step="1">
     </form>
-    <h1 id="result"></h1>
+
+    <div id="divInputBgColor">
+        <form action="" onsubmit="return false">
+            <input type="text" id="input-hexCode">
+            <h2>Give me a color</h2>
+            <button onclick=chgBgByInput()>Senden</button>
+        </form>
+    </div>
+    <div id="superBalls">
+        <h1 id="superBallsHeadline">SuperBalls</h1>
+        <div id="ballOne" onclick=superBall1()></div>
+        <div id="ballTwo" onclick=superBall2()></div>
+        <div id="ballThree" onclick=superBall3()></div>
+        <div id="ballFour" onclick=superBall4()></div>
+    </div>
 
     <script src="assets/js/main.js"></script>
 </body>

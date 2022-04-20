@@ -6,3 +6,81 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Yusei Magic', sans-serif;
 */
+
+#divInputBgColor {
+    margin: 30px;
+    padding: 20px;
+    width: 20%;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#superBalls {
+    margin: 30px;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#ballOne {
+    display: inline-block;
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(2, 0, 36, 1), 50%, rgba(0, 212, 255, 1) 50%);
+}
+
+#ballTwo {
+    display: inline-block;
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(0, 89, 82, 1), 50%, rgba(252, 255, 20, 1) 50%);
+}
+
+#ballThree {
+    display: inline-block;
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(89, 0, 0, 1), 50%, rgba(93, 170, 0, 1) 50%);
+}
+
+#ballFour {
+    display: inline-block;
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(2, 0, 222, 1), 50%, rgba(220, 21, 25, 1) 50%);
+}
+
+.one {
+    color: rgba(2, 0, 36, 1);
+    background-color: rgba(0, 212, 255, 1);
+}
+
+.two {
+    color: rgba(0, 89, 82, 1);
+    background-color: rgba(252, 255, 20, 1);
+}
+
+.three {
+    color: rgba(89, 0, 0, 1);
+    background-color: rgba(93, 170, 0, 1);
+}
+
+.four {
+    color: rgba(2, 0, 222, 1);
+    background-color: rgba(220, 21, 25, 1);
+}
