@@ -7,17 +7,51 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Yusei Magic', sans-serif;
 */
 
+#fontsGenerator,
+#backgroundChg {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
 #divInputBgColor {
-    margin: 30px;
+    margin: 30px auto;
     padding: 20px;
     width: 20%;
     background-color: azure;
     border: 1px solid black;
     border-radius: 10px;
+    text-align: center;
 }
 
+/* input[type=range]::-webkit-slider-thumb {
+    box-shadow: 3px 3px 3px #000;
+    border: 2px solid #83E584;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #439643;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+
+input[type=range]::-webkit-slider-runnable-track:nth-child(2) {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #002200;
+    background: #205928;
+    border-radius: 1px;
+    border: 1px solid #18D501;
+} */
+
 #superBalls {
-    margin: 30px;
+    margin: 30px auto;
     padding: 20px;
     width: 80%;
     border: 1px solid black;

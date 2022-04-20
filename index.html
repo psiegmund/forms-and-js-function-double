@@ -36,28 +36,32 @@
     </form> -->
 
     <!-- LVL3_1 -->
-    <h2>Fonts Generator</h2>
-    <form action="" onchange=chgFont() id="fontGenerator">
-        <input type="range" min="0" max="40" step="1" id="input-fontsize">
-        <select name="fontfamily" id="input-fontFamily">
-            <option value="'Bodoni Moda', serif">Bodoni 1</option>
-            <option value="'Open Sans', sans-serif">Open Sans</option>
-            <option value="'Roboto', sans-serif">Roboto</option>
-            <option value="'Yusei Magic', sans-serif">Yusei</option>
-        </select>
-        <input type="text" id="input-text" placeholder="So sieht´s aus!">
-    </form>
-    <h1 id="result"></h1>
+    <div id="fontsGenerator">
+        <h2>Fonts Generator</h2>
+        <form action="" onchange=chgFont() id="fontGenerator">
+            <input type="range" min="0" max="40" step="1" id="input-fontsize">
+            <select name="fontfamily" id="input-fontFamily">
+                <option value="'Bodoni Moda', serif">Bodoni 1</option>
+                <option value="'Open Sans', sans-serif">Open Sans</option>
+                <option value="'Roboto', sans-serif">Roboto</option>
+                <option value="'Yusei Magic', sans-serif">Yusei</option>
+            </select>
+            <input type="text" id="input-text" placeholder="So sieht´s aus!">
+        </form>
+        <h1 id="result"></h1>
+    </div>
 
-    <h2>Change Background Color</h2>
-    <form action="" onchange=chgBg() id="bgColor">
-        <label for="RGBR">RED</label>
-        <input type="range" name="RGBR" id="range-R" min="0" max="255" step="1">
-        <label for="RGBG">GREEN</label>
-        <input type="range" name="RGBG" id="range-G" min="0" max="255" step="1">
-        <label for="RGBB">BLUE</label>
-        <input type="range" name="RGBB" id="range-B" min="0" max="255" step="1">
-    </form>
+    <div id="backgroundChg">
+        <h2>Change Background Color</h2>
+        <form action="" onchange=chgBg() id="bgColor">
+            <label for="RGBR">RED</label>
+            <input type="range" name="RGBR" id="range-R" min="0" max="255" step="1">
+            <label for="RGBG">GREEN</label>
+            <input type="range" name="RGBG" id="range-G" min="0" max="255" step="1">
+            <label for="RGBB">BLUE</label>
+            <input type="range" name="RGBB" id="range-B" min="0" max="255" step="1">
+        </form>
+    </div>
 
     <div id="divInputBgColor">
         <form action="" onsubmit="return false">
