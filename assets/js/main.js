@@ -46,6 +46,7 @@ let ball1 = document.getElementById('ballOne')
 let ball2 = document.getElementById('ballTwo')
 let ball3 = document.getElementById('ballThree')
 let ball4 = document.getElementById('ballFour')
+let divGiveMe = document.getElementById('divInputBgColor')
 
 function chgFont() {
     console.log(fontSize.value);
@@ -64,7 +65,7 @@ function chgBg() {
 }
 
 function chgBgByInput() {
-    body.style.backgroundColor = hexCode.value;
+    divGiveMe.style.backgroundColor = hexCode.value;
     console.log(hexCode.value);
 }
 
